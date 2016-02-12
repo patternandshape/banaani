@@ -1,16 +1,16 @@
 # Banaani
 
-### A website for a product called Banaani which includes information and an image gallery about said product.
-### February 12, 2016
+##### A website for a product called Banaani which includes information and an image gallery about said product.
+##### February 12, 2016
 
-### By Molly Curtin
+##### By Molly Curtin
 
-# Description
+### Description
 
 A website where a consumer can learn more about the Banaani product.
 
 
-# Technologies Used
+##### Technologies Used
 
 * HTML
 * CSS
@@ -18,9 +18,9 @@ A website where a consumer can learn more about the Banaani product.
 * Terminal
 
 
-###Variable Pizza can be viewed at http://patternandshape.github.io/banaani
+#####Variable Pizza can be viewed at http://patternandshape.github.io/banaani
 
-### License
+##### License
 
 *Licensed under GPL.*
 
