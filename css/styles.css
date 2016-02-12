@@ -22,9 +22,27 @@
 	-webkit-animation: wiggle 0.5s infinite;
 }
 
+#header {
+  height: 185px;
+  position: fixed;
+  left:0px;
+  top:0px;
+  right: 0px;
+  padding-right: 50px;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  /*background: #f8efd3; /* Old browsers */
+  background: -moz-linear-gradient(top,  #e2be4e 0%, #f8efd3 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #e2be4e 0%,#f8efd3 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #e2be4e 0%,#f8efd3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2be4e', endColorstr='#f8efd3',GradientType=0 ); /* IE6-9 */
+}
+
+
 body {
   background-color: #f8efd3;
-  font-family: sans-serif;
+  font-family: 'Varela Round', sans-serif;
   font-weight: 300;
   font-size: 14px;
   color: #6e5712;
@@ -42,6 +60,7 @@ td:nth-child(1) {
 
 #nav {
   height: 75px;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #wrap {
@@ -59,9 +78,9 @@ td:nth-child(1) {
 #column2 {
   width: 270px;
   float:right;
-  padding: 10px;
+  padding: 5px;
   margin-right: 100px;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .yum {
@@ -75,11 +94,11 @@ td:nth-child(1) {
 
 h2 {
   font-family: 'Sarina', cursive;
-  color: #E2BE4E;
+  color: #99cc00;
   text-shadow: 1px 1px #6e5712;
-  font-size: 84px;
+  font-size: 90px;
   margin-top: -10px;
-  margin-left: 60px;
+  margin-left: 150px;
   position: absolute;
 }
 
@@ -108,7 +127,7 @@ table {
   border-collapse: collapse;
   font-size: 11px;
   width: 240px;
-  margin-top: 10px;
+  /*margin-top: 5px;*/
 }
 
 td, th {
@@ -134,7 +153,7 @@ button {
   transform: rotate(50deg);
   display: inline-block;
   margin-left: 65px;;
-  margin-top: 180px;
+  margin-top: 160px;
   clear:both;
 }
 
@@ -146,21 +165,41 @@ a {
   color: #6e5712;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Varela Round', sans-serif;
 }
 
 a:hover {
-  color: #bbff99;
+  color: #99cc00;
   text-decoration: none;
+  font-family: 'Varela Round', sans-serif;
 }
 
 #footer {
-  height: 165px;
+  height: 185px;
   position: fixed;
-  left:20px;
-  bottom:0px;
-  width:100%;
+  left: 20px;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+  margin-left: -20px;
+  /*background: #f8efd3; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f8efd3 0%, #e2be4e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f8efd3 0%,#e2be4e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f8efd3 0%,#e2be4e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8efd3', endColorstr='#e2be4e',GradientType=0 ); /* IE6-9 */
 }
 
-#footer > img {
-  width:100%;
+.gallery {
+	position: absolute;
+  width: 1100px;
+  margin-left: 130px;
+}
+
+.gallery img {
+  padding-left: 20px;
+  position: relative;
+}
+
+.gallery img:hover {
+  opacity: 0.50;
 }
