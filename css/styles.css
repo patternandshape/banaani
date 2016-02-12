@@ -8,7 +8,16 @@
 
 body {
   background-color: #f8efd3;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #6e5712;
 }
+
+#nav {
+  height: 75px;
+}
+
 #wrap {
   position: relative;
   width: 1200px;
@@ -23,12 +32,19 @@ body {
     clear: both;
 }
 
+.yum {
+  font-family: 'Sarina', cursive;
+  color: #E2BE4E;
+  text-shadow: 1px 1px #6e5712;
+  font-size: 30px;
+}
+
 
 #column2 {
   float:right;
 }
 
-#nav h2 {
+h2 {
   font-family: 'Sarina', cursive;
   color: #E2BE4E;
   text-shadow: 1px 1px #6e5712;
@@ -50,6 +66,31 @@ ul {
   position: absolute;
 }
 
+button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #EDF0F1;
+  font-size: 13px;
+  font-weight: bold;
+  color: #999999;
+  margin-top: 35px;
+}
+
+
 #footer {
-  height: 250px;
+  height: 175px;
+  position: fixed;
+  left:20px;
+  bottom:0px;
+  width:100%;
+  clear:both;
+}
+
+#footer > img {
+  /*padding-right: 50px;*/
+}
+
+.gallery {
+
 }
