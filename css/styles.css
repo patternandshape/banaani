@@ -54,7 +54,7 @@ button {
   transform: rotate(50deg);
   display: inline-block;
   margin-left: 65px;;
-  margin-top: 160px;
+  margin-top: 175px;
   clear:both;
 }
 
@@ -168,7 +168,8 @@ table {
   position: absolute;
   border-collapse: collapse;
   font-size: 11px;
-  width: 240px;
+  width: 220px;
+  margin-left: 10px;
 }
 
 td, th {
@@ -179,19 +180,24 @@ td, th {
  }
 
 td {
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding: 7px 10px 7px 10px;
+  border-bottom: 1px solid #000;
  }
 
-td:nth-child(1) {
+td:nth-child(odd) {
   font-weight: bold;
  }
 
 th {
   font-size: 14px;
-  padding-top: .8em;
-  padding-bottom: .8em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f1dea7;
  }
+
+td:nth-child(even) {
+  text-align: right;
+}
 
 ul {
   list-style: none;
