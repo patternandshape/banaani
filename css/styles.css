@@ -7,15 +7,15 @@
 }
 
 @-webkit-keyframes wiggle {
-	0% {
-		-webkit-transform:rotate(4deg);
-	}
-	50% {
-		-webkit-transform:rotate(-4deg);
-	}
-	100% {
-		-webkit-transform:rotate(4deg);
-	}
+  0% {
+  -webkit-transform:rotate(4deg);
+  }
+  50% {
+  -webkit-transform:rotate(-4deg);
+  }
+  100% {
+  -webkit-transform:rotate(4deg);
+  }
 }
 
 .wiggle:hover {
@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #99cc00;
+  color: #739900;
   text-decoration: none;
   font-family: 'Varela Round', sans-serif;
 }
@@ -58,8 +58,13 @@ button {
   clear:both;
 }
 
+button:focus {
+  outline:0;
+}
+
 button:hover {
   opacity: 0.50;
+  border: none;
 }
 
 #column1 {
@@ -97,13 +102,16 @@ button:hover {
 
 .gallery {
 	position: absolute;
-  width: 1100px;
-  margin-left: 130px;
+  width: 100%;
+  margin-left: 12%;
+  margin-right: 50%;
 }
+
 
 .gallery img {
   padding-left: 20px;
   position: relative;
+  float: left;
 }
 
 .gallery img:hover {
@@ -118,6 +126,10 @@ h2 {
   margin-top: -10px;
   margin-left: 150px;
   position: absolute;
+}
+
+h2:hover {
+  color: #739900;
 }
 
 #header {
@@ -160,25 +172,25 @@ table {
 }
 
 td, th {
- border-bottom: 1px solid #000;
- text-align: left;
- padding-left: 10px;
- padding-right: 10px;
+  border-bottom: 1px solid #000;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
  }
 
- td {
-   padding-top: .5em;
-   padding-bottom: .5em;
+td {
+  padding-top: .5em;
+  padding-bottom: .5em;
  }
 
- td:nth-child(1) {
-   font-weight: bold;
+td:nth-child(1) {
+  font-weight: bold;
  }
 
 th {
-   font-size: 14px;
-   padding-top: .8em;
-   padding-bottom: .8em;
+  font-size: 14px;
+  padding-top: .8em;
+  padding-bottom: .8em;
  }
 
 ul {
