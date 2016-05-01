@@ -24,6 +24,6 @@ A website where a consumer can learn more about the Banaani product.
 
 ##### License
 
-*Licensed under GPL.*
+*This software is licensed under the MIT license.*
 
-&copy;2016 **Molly Curtin**
+&copy; 2016 **Molly Curtin**
